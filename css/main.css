@@ -57,6 +57,14 @@ a hover{
 #wrapper{
     background-color: crimson;
     max-width: 1300px;
-   
+    max-height: 1300px;
     margin: 0 auto;
+}
+#temp{
+    background-color: yellow;
+    width:100px;
+    height: 300px;
+    margin: auto;
+    float: left;
+    overflow: scroll;
 }
