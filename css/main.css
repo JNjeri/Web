@@ -1,16 +1,33 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body{
     background-color: pink;
   
-    background-repeat: repeat-x;
-   
-    text-decoration-color: white;
+    background-repeat: repeat-x;   
    
 }
-a{
-    color: red;
-    text-decoration: none;
 
+.nav li{
+  float: left;
+  list-style: none;
+  padding: 10px; 
+    
+}
+.nav ul{
+    padding: 0px;
+    margin: 0px;
+   
+}
+.nav li a{
+   display: block;
+   background-color: black;
+   padding: 10px;
+   color: white;
+   text-decoration: none;
+  
+}
+.nav li a:hover{
+    background-color: white;
+    color: black;
 }
 /* adding psuedo element */
 a hover{
@@ -18,22 +35,28 @@ a hover{
     text-decoration: underline;
 }
 /* adding fonts */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-#one{
-    background-image: url(../img/skyline.jpg);
-    background-position: center;
-    font-family: 'Sigmar One', cursive;
-}
+
 
 #sidebar{
     float: right ;
-    background-image: url(../img/dandelion.jpg);
-    width: 35%;
+    /* background-image: url(../img/dandelion.jpg);
+    background-position: center; */
+    width: 30%;
+    font-family: 'Sigmar One', cursive;
     
    
 }
 #main{
     width: 60%;
     float: left;
-    border: 1px balck solid;
+    color: white;
+    font-family: 'Sigmar One', cursive;
+    /* background-image: url(../img/skyline.jpg); */
+    background-color: black;
+}
+#wrapper{
+    background-color: crimson;
+    max-width: 1300px;
+   
+    margin: 0 auto;
 }
