@@ -1,8 +1,39 @@
 
 body{
-    background-color: red;
-    color: white;
+    background-color: pink;
+  
+    background-repeat: repeat-x;
+   
+    text-decoration-color: white;
+   
 }
-input{
-   margin:auto ;
+a{
+    color: red;
+    text-decoration: none;
+
+}
+/* adding psuedo element */
+a hover{
+    color: blue;
+    text-decoration: underline;
+}
+/* adding fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+#one{
+    background-image: url(../img/skyline.jpg);
+    background-position: center;
+    font-family: 'Sigmar One', cursive;
+}
+
+#sidebar{
+    float: right ;
+    background-image: url(../img/dandelion.jpg);
+    width: 35%;
+    
+   
+}
+#main{
+    width: 60%;
+    float: left;
+    border: 1px balck solid;
 }
