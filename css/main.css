@@ -39,23 +39,66 @@ a hover{
 
 #sidebar{
     float: right ;
-    /* background-image: url(../img/dandelion.jpg);
-    background-position: center; */
-    width: 30%;
+    width: 45%;
     font-family: 'Sigmar One', cursive;
     
    
 }
 #main{
-    width: 60%;
+    width: 50%;
     float: left;
-    color: white;
+    color: black;
     font-family: 'Sigmar One', cursive;
-    /* background-image: url(../img/skyline.jpg); */
-    background-color: black;
 }
+/* .clear{
+    clear: none;
+} */
+@media only screen and (max-width:870px){
+
+
+#sidebar{
+    width: 45%;
+    font-family: 'Sigmar One', cursive;
+    
+   
+}
+#main{
+    width: 50%;
+    color: black;
+    font-family: 'Sigmar One', cursive;
+}
+
+}
+@media only screen and (max-width:700px){
+
+
+    #sidebar{
+        width: 100%;
+        background-color: red;
+        font-family: 'Sigmar One', cursive;
+        
+       
+    }
+    #main{
+        width: 100%;
+        color: black;
+        font-family: 'Sigmar One', cursive;
+    }
+    
+    }
+    @media only screen and (max-width:500px){
+        .nav li{
+           text-align: center;
+            float: none;
+              
+          }
+          .nav ul{
+             
+            width: 100%; 
+          }
+    }
 #wrapper{
-    background-color: crimson;
+    /* background-color: crimson; */
     max-width: 1300px;
     max-height: 1300px;
     margin: 0 auto;
@@ -67,4 +110,24 @@ a hover{
     margin: auto;
     float: left;
     overflow: scroll;
+}
+.hyper{
+    background-color: white;
+   
+}
+.hyper a{
+    display: block;
+    background-color: darkkhaki;
+    border: 1px solid;
+    font-size:1.5em;
+    border-radius: 45px;
+    margin-top: 4px;
+    padding: 4px;
+}
+  #main p:nth-child(even){
+    background-color: darkorchid;
+}
+#main p:first-letter{
+   font-size: 2em;
+   color:black;
 }
